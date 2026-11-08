@@ -117,7 +117,7 @@ async function mtHome() {
   row.appendChild(sel);
   row.appendChild(go);
   mtBox.appendChild(row);
-  mtBox.appendChild(el("p", "muted center small", "Recherche automatique faite sur le texte de l'API : elle trouve les versets très proches, mais ce n'est pas la liste officielle des savants. Pour réviser, vérifiez avec un professeur."));
+  mtBox.appendChild(el("p", "muted center small", ""));
 }
 
 // ---------- Recherche automatique des versets semblables ----------

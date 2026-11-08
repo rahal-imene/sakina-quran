@@ -825,7 +825,7 @@ async function mapsHome() {
   } else {
     mapBox.appendChild(el("p", "error", "Impossible de charger la liste des sourates. Vérifiez votre connexion."));
   }
-  mapBox.appendChild(el("p", "muted center small", "Les plans des histoires et des sourates sont un résumé simplifié écrit à la main : faites-les vérifier par un professeur. Les versets, eux, viennent de l'API."));
+  mapBox.appendChild(el("p", "muted center small", ""));
 }
 
 async function mapAuto(s, chapters, btn, msg) {
